@@ -1,0 +1,359 @@
+*{
+  margin: 0px;
+}
+.row{
+  content:'';
+  display: table;
+  clear: both;
+  width: 100%;
+}
+.container{
+  margin: 0px 11%;
+}
+@media only screen and (max-width:320px) {
+  .hide-xs{
+    display: none;
+  }
+}
+@media only screen and (max-width:767px) {
+  .hide-s{
+    display: none;
+  }
+  .show-s{
+    display: block !important;
+  }
+  .container{
+    margin: 0px 5%;
+  }
+  /* SET */
+  .bg-about-l{
+    display: none;
+  }
+  .about-isi{
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .about-isi p{
+    padding: 0px;
+  }
+  #about-title{
+    color: #303030 !important;
+  }
+  .pembatas-img{
+    padding-left: 5%;
+    width: auto;
+    border-radius: 0;
+  }
+  .pembatas-img h1{
+    padding-top: 40px;
+  }
+  #team-title{
+    margin: 0px 5% !important;
+  }
+  .kotak-detail-team{
+    margin: 30px 0px !important;
+  }
+  /* MODAL */
+  .modal-content {
+    left: 3% !important;
+    right: 3% !important;
+  }
+  .modal-isi-header-kotak{
+    width: 100%;
+  }
+  .visit-web{
+    margin: 10px 0px;
+    float: left !important;
+  }
+  .modal-detail-product-1-img{
+    text-align: center;
+  }
+  .modal-detail-product-1-img img{
+    width: 50% !important;
+  }
+  .modal-detail-product-1-text{
+    margin-left:0px !important;
+    margin-top: 30px !important;
+  }
+  .modal-detail-product-1{
+    padding: 80px 20px 40px 20px;
+  }
+  input[type="text"], textarea{
+    width: 93% !important;
+  }
+  .contact-text{
+    margin-bottom: 60px;
+    margin-top:20px !important;
+    margin-right: 0px !important;
+    border: 0px !important;
+  }
+  .contact h3, .contact h4{
+    float: left !important;
+  }
+  .rating{
+    padding-left: 0px !important;
+    border-left: 0px !important;
+  }
+  .modal-detail-product-2 p{
+    padding-right: 0px !important;
+  }
+  .modal-detail-product-2{
+    padding: 80px 20px !important;
+  }
+  .footer-pad{
+    padding-bottom: 30px;
+  }
+  .about-text h3{
+    margin-left: 0px !important;
+    font-size: 35px !important;
+  }
+  .about-text p{
+    margin-left: 0px !important;
+  }
+  .about-2-text{
+    text-align: left !important;
+    padding: 0px !important;
+    margin-bottom: 20px;
+  }
+  .form-go{
+    margin: 0px !important;
+    border: 0px;
+  }
+  .about, .about-2, .portofolio, .contact{
+    padding: 40px 0px !important;
+  }
+  .menu-isi a{
+    font-size: 13px !important;
+  }
+  .nav-noscroll-menu{
+    border-radius: 0px;
+  }
+  .no-container-s{
+    margin: 0px !important;
+  }
+  .header h1{
+    font-size: 24px !important;
+  }
+  .copyright{
+    text-align: center;
+  }
+  .copyright-sosmed{
+    margin-top: 20px;
+    float: none;
+  }
+  .copyright-sosmed a{
+    margin-right: 10px !important;
+  }
+  .svg-logo{
+    height: 150px !important;
+    margin-top: 150px !important;
+  }
+  .header p{
+    display: none;
+  }
+  .team-img-and-name-right, .team-img-and-name{
+    left: 50% !important;
+    transform: translateX(-50%)!important;
+  }
+  .choose-lang{
+    position: absolute !important;
+  }
+  .sidenav-inside{
+    width: 80%;
+  }
+  .sidenav-inside ul li a{
+    font-size: 24px !important;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:1024px) {
+  .hide-m{
+    display: none !important;
+  }
+  .show-s{
+    display: block;
+  }
+  .container{
+    margin: 0px 5%;
+  }
+  /* SET */
+  .test h2{
+    margin: 10px;
+    right: 10px !important;
+  }
+  .choose-lang{
+    position: absolute !important;
+  }
+  .svg-logo{
+    height: 100px !important;
+    margin-top: 100px !important;
+  }
+  .pembatas-img{
+    padding-left: 5%;
+  }
+  #team-title{
+    margin: 0px 5% !important;
+  }
+  .modal-isi-header-kotak{
+    width: 100%;
+  }
+  .modal-detail-product-1-img{
+    text-align: center;
+  }
+  .modal-detail-product-1-img img{
+    width: 50% !important;
+  }
+  .modal-detail-product-1-text{
+    margin-left:0px !important;
+    margin-top: 30px !important;
+  }
+  .modal-detail-product-1{
+    padding: 80px 40px 40px 40px;
+  }
+  .contact-text{
+    margin-right: 40px !important;
+  }
+  .rating{
+    padding-left: 0px !important;
+    border-left: 0px !important;
+  }
+  .modal-detail-product-2 p{
+    padding-right: 0px !important;
+  }
+  .modal-detail-product-2{
+    padding: 80px 40px !important;
+  }
+  .footer-pad{
+    padding-bottom: 30px;
+  }
+  .test{
+    height: 400px !important;
+  }
+  .about-2-text{
+    text-align: left !important;
+    padding: 0px !important;
+    margin-bottom: 20px;
+  }
+  .form-go{
+    margin: 0px !important;
+    border: 0px;
+  }
+  .about, .about-2, .portofolio, .contact{
+    padding: 60px 0px !important;
+  }
+}
+[class*='col-']{
+  float: left;
+}
+.col-s1{
+  width: 8.33333%;
+}
+.col-s2{
+  width: 16.66667%;
+}
+.col-s3{
+  width: 25%;
+}
+.col-s4{
+  width: 33.33333%;
+}
+.col-s5{
+  width: 41.66667%;
+}
+.col-s6{
+  width: 50%;
+}
+.col-s7{
+  width: 58.33333%;
+}
+.col-s8{
+  width: 66.66667%;
+}
+.col-s9{
+  width: 75%;
+}
+.col-s10{
+  width: 83.33333%;
+}
+.col-s11{
+  width: 91.66667%;
+}
+.col-s12{
+  width: 100%;
+}
+@media only screen and (min-width:768px) {
+  .col-m1{
+    width: 8.33333%;
+  }
+  .col-m2{
+    width: 16.66667%;
+  }
+  .col-m3{
+    width: 25%;
+  }
+  .col-m4{
+    width: 33.33333%;
+  }
+  .col-m5{
+    width: 41.66667%;
+  }
+  .col-m6{
+    width: 50%;
+  }
+  .col-m7{
+    width: 58.33333%;
+  }
+  .col-m8{
+    width: 66.66667%;
+  }
+  .col-m9{
+    width: 75%;
+  }
+  .col-m10{
+    width: 83.33333%;
+  }
+  .col-m11{
+    width: 91.66667%;
+  }
+  .col-m12{
+    width: 100%;
+  }
+}
+@media only screen and (min-width:1024px) {
+  .col-l1{
+    width: 8.33333%;
+  }
+  .col-l2{
+    width: 16.66667%;
+  }
+  .col-l3{
+    width: 25%;
+  }
+  .col-l4{
+    width: 33.33333%;
+  }
+  .col-l5{
+    width: 41.66667%;
+  }
+  .col-l6{
+    width: 50%;
+  }
+  .col-l7{
+    width: 58.33333%;
+  }
+  .col-l8{
+    width: 66.66667%;
+  }
+  .col-l9{
+    width: 75%;
+  }
+  .col-l10{
+    width: 83.33333%;
+  }
+  .col-l11{
+    width: 91.66667%;
+  }
+  .col-l12{
+    width: 100%;
+  }
+}
